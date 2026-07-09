@@ -87,7 +87,6 @@ export async function POST(request: Request) {
           resend.emails.send({
             from: fromEmail,
             to: artistEmail,
-            replyTo: booking.email,
             subject: artistEmailContent.subject,
             html: artistEmailContent.html,
           }),
