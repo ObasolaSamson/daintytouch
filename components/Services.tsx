@@ -30,9 +30,16 @@ export default function Services() {
             <p className="mt-4 leading-relaxed text-charcoal/70">
               {service.description}
             </p>
-            <p className="mt-6 text-sm font-medium uppercase tracking-wide text-blush-400">
-              Duration · {service.duration}
-            </p>
+            {service.note && (
+              <p className="mt-4 text-sm italic text-charcoal/50">
+                {service.note}
+              </p>
+            )}
+            {service.duration && (
+              <p className="mt-6 text-sm font-medium uppercase tracking-wide text-blush-400">
+                Duration · {service.duration}
+              </p>
+            )}
           </article>
         ))}
       </div>

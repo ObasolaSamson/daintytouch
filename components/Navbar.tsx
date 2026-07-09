@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import { SOCIAL_LINKS } from "@/lib/social";
 
 export default function Navbar() {
@@ -42,6 +42,13 @@ export default function Navbar() {
             >
               <FaWhatsapp className="h-5 w-5" />
             </a>
+            <a
+              href={`mailto:${SOCIAL_LINKS.email}`}
+              aria-label="Email Dainty Touch"
+              className="text-charcoal/70 transition hover:text-blush-600"
+            >
+              <FaEnvelope className="h-5 w-5" />
+            </a>
           </div>
 
           <Link
@@ -70,6 +77,13 @@ export default function Navbar() {
             className="text-charcoal/70 transition hover:text-blush-600"
           >
             <FaWhatsapp className="h-5 w-5" />
+          </a>
+          <a
+            href={`mailto:${SOCIAL_LINKS.email}`}
+            aria-label="Email Dainty Touch"
+            className="text-charcoal/70 transition hover:text-blush-600"
+          >
+            <FaEnvelope className="h-5 w-5" />
           </a>
           <Link
             href="/book"

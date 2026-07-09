@@ -64,10 +64,10 @@ export async function POST(request: Request) {
 
   // 2. Send confirmation (to client) + notification (to artist) via Resend.
   const apiKey = process.env.RESEND_API_KEY;
-  const fromEmail = process.env.BOOKING_FROM_EMAIL;
   const artistEmail = process.env.ARTIST_EMAIL;
+  const fromEmail = "bookings@daintytouchbeauty.com";
 
-  if (apiKey && fromEmail && artistEmail) {
+  if (apiKey && artistEmail) {
     try {
       const resend = new Resend(apiKey);
       const clientEmail = clientConfirmationEmail(booking);
@@ -94,7 +94,7 @@ export async function POST(request: Request) {
     }
   } else {
     console.warn(
-      "Resend not configured (RESEND_API_KEY / BOOKING_FROM_EMAIL / ARTIST_EMAIL). Skipping emails."
+      "Resend not configured (RESEND_API_KEY / ARTIST_EMAIL). Skipping emails."
     );
   }
 

@@ -47,6 +47,11 @@ export default function BookPage() {
                     <p className="text-sm text-charcoal/60">
                       {service.description}
                     </p>
+                    {service.note && (
+                      <p className="mt-1 text-xs italic text-charcoal/45">
+                        {service.note}
+                      </p>
+                    )}
                   </div>
                 </li>
               ))}
