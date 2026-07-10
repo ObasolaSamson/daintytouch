@@ -49,7 +49,7 @@ export const SERVICES: Service[] = [
     slug: "bridal-groom-parents",
     name: "Bridal / Groom Parents",
     description:
-      "Elegant, camera-ready glam for the mothers and fathers of the couple.",
+      "Elegant, camera-ready glam for the mothers of the couple.",
     priceFrom: "$250",
   },
   {

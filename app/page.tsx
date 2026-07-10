@@ -27,7 +27,7 @@ function AboutBand() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:grid-cols-3">
         {[
           {
-            stat: "8+ yrs",
+            stat: "14+ yrs",
             label: "Professional experience across weddings and editorials",
           },
           {
