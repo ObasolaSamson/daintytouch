@@ -14,6 +14,10 @@ const GALLERY_IMAGES = [
   { src: "/portfolio/work-5.png", alt: "Green and gold traditional glam" },
   { src: "/portfolio/work-6.png", alt: "Burnt orange gele bold glam" },
   { src: "/portfolio/work-7.png", alt: "Burgundy and gold aso-oke glam" },
+  { src: "/portfolio/work-8.png", alt: "Black and gold sequin gele glam" },
+  { src: "/portfolio/work-9.png", alt: "Gold and orange striped gele glam" },
+  { src: "/portfolio/work-10.png", alt: "Soft pink glam with sleek hair" },
+  { src: "/portfolio/work-11.png", alt: "Burgundy gele with white lace glam" },
 ];
 
 export default function Gallery() {
