@@ -26,6 +26,8 @@ export const metadata: Metadata = {
   title: "Dainty Touch — Professional Makeup Artist",
   description:
     "Bridal, editorial, and special occasion makeup artistry. Book your appointment with Dainty Touch today.",
+  // Favicons: app/favicon.ico (legacy .ico) and app/icon.svg (modern, scalable)
+  // are automatically linked in the document <head> by the Next.js App Router.
 };
 
 export default function RootLayout({

@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#d15f47" />
+  <rect x="28" y="28" width="456" height="456" rx="88" fill="none" stroke="#fbf7f2" stroke-opacity="0.55" stroke-width="8" />
+  <text x="50%" y="52%" text-anchor="middle" dominant-baseline="central"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-size="330" font-weight="600" fill="#fbf7f2">D</text>
+</svg>
